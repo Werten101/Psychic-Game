@@ -88,7 +88,7 @@ document.getElementById("Background").addEventListener("click", function(){
 
 document.getElementById("Background").addEventListener("click", function(){
 	if (guessesLeft == -2) {
-		alert("Game Over! Try Again!");
+		alert("Game Over! Try Again! My letter was: " + computerChoice);
 		document.getElementById("Losses").innerHTML = losses;
 		losses++;
 	}
